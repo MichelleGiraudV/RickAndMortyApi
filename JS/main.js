@@ -33,6 +33,7 @@ async function getAllCharacters(url){
 }
 
 //getAllCharacters('https://rickandmortyapi.com/api/character?page=1');
+getAllCharacters('https://rickandmortyapi.com/api/character');
 
 const searchCharactersByName = async(name) => {
     try{
